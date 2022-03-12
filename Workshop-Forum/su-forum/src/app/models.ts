@@ -1,17 +1,14 @@
-export interface ThemeView {
-    title: string,
-    date: string,
-    creatorUsername: string,
-    subsCount: number
-}
-
 export interface Theme {
     subscribers: string[],
     posts: string[],
     _id: string,
     themeName: string,
-    userId: Object,
+    userId: any,
     created_at: string,
     updatedAt: string,
     __v: number;
+}
+
+export interface Post {
+
 }

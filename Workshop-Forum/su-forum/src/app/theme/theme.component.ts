@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Theme, ThemeView } from '../models';
+import { Theme } from '../models';
 import { ThemeService } from '../theme.service';
 
 @Component({

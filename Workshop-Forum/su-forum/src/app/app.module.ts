@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ThemeComponent } from './theme/theme.component';
 import { HomeComponent } from './home/home.component';
 import { AsideComponent } from './aside/aside.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AsideComponent } from './aside/aside.component';
     FooterComponent,
     ThemeComponent,
     HomeComponent,
-    AsideComponent
+    AsideComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

@@ -55,9 +55,9 @@ button:hover {
 
 /* main  */
 
-main {
+/* main {
     width: 50%;
-}
+} */
 
 /* theme list item */
 
@@ -129,7 +129,7 @@ time {
 /* aside  */
 
 aside {
-    width: 29%;
+    /* width: 29%; */
     margin-top: 1em;
     font-size: 0.8em;
 }
